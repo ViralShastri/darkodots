@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/darko/Downloads/pexels-ben-taylor-109998.jpg" added="2022-07-04T11:12:18.529105Z" modified="2022-07-04T11:12:18.529109Z" visited="2022-07-04T11:12:18.529106Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-04T11:12:18.529107Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads" added="2022-07-04T11:15:06.156971Z" modified="2022-07-04T11:15:06.156981Z" visited="2022-07-04T11:15:06.156972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2022-07-04T11:15:06.156976Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/pexels-ilham-izzul-1328879.jpg" added="2022-07-05T13:56:35.517344Z" modified="2022-07-05T13:56:35.517347Z" visited="2022-07-05T13:56:35.517344Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-05T13:56:35.517345Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/pexels-aleksandar-pasaric-1820770.jpg" added="2022-07-09T14:20:27.424708Z" modified="2022-07-09T14:20:27.424711Z" visited="2022-07-09T14:20:27.424708Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-09T14:20:27.424709Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/FiraCode.zip" added="2022-07-12T12:03:51.052081Z" modified="2022-07-12T12:03:59.845152Z" visited="2022-07-12T12:03:51.052083Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-12T12:03:59.845140Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/node-v16.16.0-linux-x64.tar.xz" added="2022-07-20T05:10:40.225524Z" modified="2022-07-20T05:10:40.225531Z" visited="2022-07-20T05:10:40.225525Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-20T05:10:40.225527Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/JetBrainsMono-2.242.zip" added="2022-07-23T11:08:33.374627Z" modified="2022-07-23T11:08:33.374631Z" visited="2022-07-23T11:08:33.374628Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-23T11:08:33.374629Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/CodeNewRoman.zip" added="2022-07-23T11:10:07.433982Z" modified="2022-07-23T11:10:07.433989Z" visited="2022-07-23T11:10:07.433984Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-23T11:10:07.433986Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/JetBrainsMono.zip" added="2022-07-23T11:13:08.271716Z" modified="2022-07-23T11:13:08.271723Z" visited="2022-07-23T11:13:08.271717Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-23T11:13:08.271719Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/pexels-instawalli-176851.jpg" added="2022-07-24T07:15:22.163874Z" modified="2022-07-24T07:15:22.163879Z" visited="2022-07-24T07:15:22.163875Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-24T07:15:22.163877Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper2.png" added="2022-07-24T07:20:23.872392Z" modified="2022-07-24T07:20:24.219982Z" visited="2022-07-24T07:20:23.872396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-24T07:20:24.219979Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/pexels-stephane-hurbe-4198029.jpg" added="2022-07-24T07:21:43.558124Z" modified="2022-07-24T07:21:43.558142Z" visited="2022-07-24T07:21:43.558127Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-24T07:21:43.558132Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/pexels-cottonbro-4835429.jpg" added="2022-07-24T07:28:36.622737Z" modified="2022-07-24T07:28:36.622742Z" visited="2022-07-24T07:28:36.622738Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-24T07:28:36.622740Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper5.jpg" added="2022-07-25T06:12:02.143841Z" modified="2022-07-25T06:12:51.151558Z" visited="2022-07-25T06:12:02.143842Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:12:51.151556Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper6.jpg" added="2022-07-25T06:13:12.031881Z" modified="2022-07-25T06:13:12.361447Z" visited="2022-07-25T06:13:12.031883Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:13:12.361445Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper7.gif" added="2022-07-25T06:14:21.504523Z" modified="2022-07-25T06:14:21.826790Z" visited="2022-07-25T06:14:21.504527Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:14:21.826787Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper8.png" added="2022-07-25T06:15:10.001983Z" modified="2022-07-25T06:15:10.368157Z" visited="2022-07-25T06:15:10.001986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:15:10.368155Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper9.png" added="2022-07-25T06:18:00.180072Z" modified="2022-07-25T06:18:00.547907Z" visited="2022-07-25T06:18:00.180074Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:18:00.547904Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper10.png" added="2022-07-25T06:19:15.321391Z" modified="2022-07-25T06:19:15.654665Z" visited="2022-07-25T06:19:15.321393Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:19:15.654663Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/darko/Downloads/wallpaper11.jpg" added="2022-07-25T06:21:51.880938Z" modified="2022-07-25T06:21:52.257014Z" visited="2022-07-25T06:21:51.880941Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-07-25T06:21:52.257012Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

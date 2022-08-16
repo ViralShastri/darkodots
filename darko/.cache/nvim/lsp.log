@@ -1,0 +1,26 @@
+[START][2022-08-02 10:08:42] LSP logging initiated
+[START][2022-08-02 10:09:48] LSP logging initiated
+[START][2022-08-02 10:11:49] LSP logging initiated
+[START][2022-08-02 10:12:47] LSP logging initiated
+[START][2022-08-02 10:13:55] LSP logging initiated
+[START][2022-08-02 10:14:30] LSP logging initiated
+[START][2022-08-06 15:24:15] LSP logging initiated
+[START][2022-08-06 15:25:02] LSP logging initiated
+[START][2022-08-06 15:26:42] LSP logging initiated
+[START][2022-08-06 15:31:19] LSP logging initiated
+[START][2022-08-06 15:36:20] LSP logging initiated
+[START][2022-08-06 15:38:08] LSP logging initiated
+[WARN][2022-08-06 15:38:13] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-08-06 15:38:13] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-08-06 15:38:17] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-08-06 15:59:52] LSP logging initiated
+[ERROR][2022-08-06 15:59:52] .../vim/lsp/rpc.lua:420	"rpc"	"bash-language-server"	"stderr"	"shellcheck not available at path 'shellcheck'\n"
+[START][2022-08-06 16:01:38] LSP logging initiated
+[WARN][2022-08-06 16:01:43] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-08-06 16:01:43] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-08-06 16:01:52] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-08-06 16:04:42] LSP logging initiated
+[WARN][2022-08-06 16:04:49] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-08-06 16:05:36] .../lua/vim/lsp.lua:815	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-08-09 10:40:04] LSP logging initiated
+[START][2022-08-09 10:45:31] LSP logging initiated

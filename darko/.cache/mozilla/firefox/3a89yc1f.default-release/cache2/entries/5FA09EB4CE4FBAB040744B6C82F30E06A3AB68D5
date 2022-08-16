@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme-dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://neovimcraft.com" />
+    <meta property="og:image" content="https://neovimcraft.com/neovimcraft.png" />
+    <meta
+      name="description"
+      content="Search through our curated neovim plugin directory and read our guides on creating plugins."
+    />
+    <meta property="og:title" content="neovimcraft" />
+    <meta
+      property="og:description"
+      content="Search through our curated neovim plugin directory and read our guides on creating plugins."
+    />
+    <meta name="twitter:image:src" content="https://neovimcraft.com/neovimcraft.png" />
+
+    <title>
+    olimorris/onedarkpro.nvim: ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!
+  </title><meta property="og:title" content="olimorris/onedarkpro.nvim" data-svelte="svelte-1c3f7v5"><meta name="twitter:title" content="olimorris/onedarkpro.nvim" data-svelte="svelte-1c3f7v5"><meta itemprop="name" content="olimorris/onedarkpro.nvim" data-svelte="svelte-1c3f7v5"><meta name="description" content="olimorris/onedarkpro.nvim: ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!" data-svelte="svelte-1c3f7v5"><meta itemprop="description" content="olimorris/onedarkpro.nvim: ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!" data-svelte="svelte-1c3f7v5"><meta property="og:description" content="olimorris/onedarkpro.nvim: ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!" data-svelte="svelte-1c3f7v5"><meta name="twitter:description" content="olimorris/onedarkpro.nvim: ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!" data-svelte="svelte-1c3f7v5">
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-8c982611.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-892f3443.js">
+		<link rel="modulepreload" href="/./_app/chunks/singletons-12a22614.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-58408287.js">
+		<link rel="modulepreload" href="/./_app/pages/plugin/[username]/[repo].svelte-ea836ada.js">
+		<link rel="modulepreload" href="/./_app/chunks/tooltip-ef58ac4c.js">
+		<link rel="modulepreload" href="/./_app/chunks/tag-2c1d9273.js">
+		<link rel="modulepreload" href="/./_app/chunks/nav-965e870b.js">
+		<link rel="modulepreload" href="/./_app/chunks/date-f080a7a7.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/plugin/[username]/[repo].svelte-b8080c53.css">
+		<link rel="stylesheet" href="/./_app/assets/tooltip-895c7e8a.css">
+		<link rel="stylesheet" href="/./_app/assets/tag-127860a9.css">
+		<link rel="stylesheet" href="/./_app/assets/nav-86c2d269.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-8c982611.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-58408287.js"),
+						import("/./_app/pages/plugin/[username]/[repo].svelte-ea836ada.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/plugin/olimorris/onedarkpro.nvim",
+						query: new URLSearchParams(location.search),
+						params: {"username":"olimorris","repo":"onedarkpro.nvim"}
+					}
+				}
+			});
+		</script>
+  </head>
+  <body>
+    <div id="svelte">
+
+
+
+
+<div class="nav svelte-wrgzkb"><h1 id="logo" class="svelte-wrgzkb"><a href="/" class="logo-header svelte-wrgzkb">neovimcraft</a>
+    <a href="https://github.com/neurosnap/neovimcraft" class="gh svelte-wrgzkb"><img class="icon svelte-1s2vpfa" src="/github.svg" alt="github"></a></h1>
+  <div class="links svelte-wrgzkb"><a href="/" class="link svelte-wrgzkb">plugins</a><a href="/guides" class="link svelte-wrgzkb">guides</a><a href="/about" class="link svelte-wrgzkb">about</a></div>
+  <div class="menu-btn svelte-wrgzkb"><img src="/menu.svg" alt="menu"></div>
+  
+</div>
+
+<div class="container svelte-1tr592p"><div class="view svelte-1tr592p"><div class="header svelte-1tr592p"><h1>olimorris/onedarkpro.nvim</h1>
+      
+      <a href="https://github.com/olimorris/onedarkpro.nvim" class="svelte-1tr592p"><img class="icon svelte-1s2vpfa" src="/github.svg" alt="github"> <span>github</span></a></div>
+    <div class="meta svelte-1exk974"><div class="tags_view svelte-1exk974"><span class="tag purple svelte-1dc66il">tree-sitter-supported-colorscheme
+</span></div>
+  <div class="metrics svelte-1exk974"><div class="tooltip-wrapper svelte-16glvw6"><span class="tooltip-slot svelte-16glvw6"><div class="metric svelte-1exk974"><img class="icon svelte-1s2vpfa" src="/star.svg" alt="star"> <span>271</span></div></span>
+  <div class="tooltip svelte-16glvw6    bottom"><div class="default-tip svelte-16glvw6" style="background-color: #757575;">stars</div></div>
+</div>
+    <div class="tooltip-wrapper svelte-16glvw6"><span class="tooltip-slot svelte-16glvw6"><div class="metric svelte-1exk974"><img class="icon svelte-1s2vpfa" src="/alert-circle.svg" alt="alert-circle"> <span>4</span></div></span>
+  <div class="tooltip svelte-16glvw6    bottom"><div class="default-tip svelte-16glvw6" style="background-color: #757575;">open issues</div></div>
+</div>
+    <div class="tooltip-wrapper svelte-16glvw6"><span class="tooltip-slot svelte-16glvw6"><div class="metric svelte-1exk974"><img class="icon svelte-1s2vpfa" src="/users.svg" alt="users"> <span>3</span></div></span>
+  <div class="tooltip svelte-16glvw6    bottom"><div class="default-tip svelte-16glvw6" style="background-color: #757575;">subscribers</div></div>
+</div>
+    <div class="tooltip-wrapper svelte-16glvw6"><span class="tooltip-slot svelte-16glvw6"><div class="metric svelte-1exk974"><img class="icon svelte-1s2vpfa" src="/git-branch.svg" alt="git-branch"> <span>9</span></div></span>
+  <div class="tooltip svelte-16glvw6    bottom"><div class="default-tip svelte-16glvw6" style="background-color: #757575;">forks</div></div>
+</div></div>
+  <div class="timestamps svelte-1exk974"><div><h5 class="ts-header svelte-1exk974">CREATED</h5>
+      <h2>2021-04-07</h2></div>
+    <div><h5 class="ts-header svelte-1exk974">UPDATED</h5>
+      <h2>14 days ago</h2></div></div>
+  <hr></div>
+<h1 id="onedarkpronvim">OneDarkPro.nvim</h1>
+<p><img src="https://img.shields.io/github/license/olimorris/onedarkpro.nvim" alt="MIT License"> <a href="https://github.com/olimorris/onedarkpro.nvim/actions/workflows/ci.yml"><img src="https://github.com/olimorris/onedarkpro.nvim/actions/workflows/ci.yml/badge.svg?branch=main" alt="Tests"></a></p>
+<h2 id="book-table-of-contents">:book: Table of Contents</h2>
+<ul>
+<li><a href="#sparkles-features">Features</a></li>
+<li><a href="#camera-screenshots">Screenshots</a></li>
+<li><a href="#zap-requirements">Requirements</a></li>
+<li><a href="#package-installation">Installation</a></li>
+<li><a href="#wrench-configuration">Configuration</a><ul>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#default-configuration">Default configuration</a></li>
+<li><a href="#configuring-themes">Configuring themes</a></li>
+<li><a href="#configuring-plugins">Configuring plugins</a></li>
+<li><a href="#configuring-styles">Configuring styles</a></li>
+<li><a href="#configuring-colors">Configuring colors</a></li>
+<li><a href="#configuring-highlight-groups">Configuring highlight groups</a></li>
+<li><a href="#configuring-filetype-highlight-groups">Configuring filetype highlight groups</a></li>
+<li><a href="#configuring-options">Configuring options</a></li>
+</ul>
+</li>
+<li><a href="#gift-extras">Extras</a><ul>
+<li><a href="#terminal-themes">Terminal themes</a></li>
+<li><a href="#helpers">Helpers</a></li>
+</ul>
+</li>
+<li><a href="#clap-credits">Credits</a></li>
+<li><a href="#page_with_curl-license">License</a></li>
+</ul>
+<h2 id="sparkles-features">:sparkles: Features</h2>
+<ul>
+<li><strong>Dark</strong> and <strong>light</strong> versions - <em>onedark</em> and <em>onelight</em></li>
+<li>Supports <strong>custom highlighting across filetypes</strong></li>
+<li><a href="https://github.com/nvim-treesitter/nvim-treesitter">Treesitter</a> support</li>
+<li>Options to specify styles for:<ul>
+<li>Comments</li>
+<li>Functions</li>
+<li>Keywords</li>
+<li>Strings</li>
+<li>Variables</li>
+<li>Virtual text</li>
+</ul>
+</li>
+<li>Override default styles, colors, highlight groups and filetype highlight groups</li>
+<li>Create custom highlight groups</li>
+<li><a href="https://github.com/neovim/nvim-lspconfig">LSP</a> diagnostics support</li>
+<li>Support for a large array of <a href="https://github.com/sheerun/vim-polyglot">vim-polygot</a> packs (pull requests welcome)</li>
+<li>Support for popular plugins:<ul>
+<li><a href="https://github.com/stevearc/aerial.nvim">aerial.nvim</a></li>
+<li><a href="https://github.com/romgrk/barbar.nvim">barbar.nvim</a></li>
+<li><a href="https://github.com/github/copilot.vim">Copilot.vim</a></li>
+<li><a href="https://github.com/glepnir/dashboard-nvim">Dashboard</a></li>
+<li><a href="https://github.com/lewis6991/gitsigns.nvim">gitsigns.nvim</a></li>
+<li><a href="https://github.com/phaazon/hop.nvim">Hop.nvim</a></li>
+<li><a href="https://github.com/lukas-reineke/indent-blankline.nvim/tree/lua">Indent Blankline</a></li>
+<li><a href="https://github.com/glepnir/lspsaga.nvim">lspsaga.nvim</a></li>
+<li><a href="https://github.com/chentau/marks.nvim">marks.nvim</a></li>
+<li><a href="https://github.com/nvim-neotest/neotest">Neotest</a></li>
+<li><a href="https://github.com/nvim-neo-tree/neo-tree.nvim">neo-tree</a></li>
+<li><a href="https://github.com/hrsh7th/nvim-cmp">nvim-cmp</a></li>
+<li><a href="https://github.com/mfussenegger/nvim-dap">nvim-dap</a></li>
+<li><a href="https://github.com/rcarriga/nvim-dap-ui">nvim-dap-ui</a></li>
+<li><a href="https://github.com/kevinhwang91/nvim-hlslens">nvim-hlslens</a></li>
+<li><a href="https://github.com/kyazdani42/nvim-tree.lua">nvim-tree</a></li>
+<li><a href="https://github.com/p00f/nvim-ts-rainbow">nvim-ts-rainbow</a></li>
+<li><a href="https://github.com/wbthomason/packer.nvim">packer.nvim</a></li>
+<li><a href="https://github.com/mhinz/vim-startify">Startify</a></li>
+<li><a href="https://github.com/nvim-telescope/telescope.nvim">telescope.nvim</a></li>
+<li><a href="https://github.com/akinsho/toggleterm.nvim">toggleterm.nvim</a></li>
+<li><a href="https://github.com/folke/trouble.nvim">Trouble</a></li>
+<li><a href="https://github.com/rcarriga/vim-ultest">Ultest</a></li>
+<li><a href="https://github.com/folke/which-key.nvim">Which Key</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="camera-screenshots">:camera: Screenshots</h2>
+<h3 id="onedark">Onedark</h3>
+<p><strong>with Telescope</strong></p>
+<h3 id="onelight">Onelight</h3>
+<p><strong>with Telescope</strong></p>
+<h3 id="onedark-vivid">Onedark Vivid</h3>
+<h3 id="onedark-dark">Onedark Dark</h3>
+<blockquote>
+<p><strong>Note:</strong> All screenshots have Treesitter highlighting enabled</p>
+</blockquote>
+<h3 id="comparison-to-vs-codes-one-dark-pro">Comparison to VS Code&#39;s One Dark Pro</h3>
+<h4 id="python">Python</h4>
+<h4 id="react">React</h4>
+<blockquote>
+<p><strong>Note:</strong> A greater likeness to Visual Studio Code can be achieved by using the theme&#39;s ability to <a href="#configuring-filetype-highlight-groups">customise highlight groups by filetype</a></p>
+</blockquote>
+<h3 id="lualine">Lualine</h3>
+<h4 id="dark">Dark</h4>
+<h4 id="light">Light</h4>
+<h3 id="color-guide">Color guide</h3>
+<h4 id="dark-1">Dark</h4>
+<h4 id="light-1">Light</h4>
+<h2 id="zap-requirements">:zap: Requirements</h2>
+<ul>
+<li>Neovim 0.5 or greater</li>
+<li><code>termguicolors</code> enabled for true color support</li>
+<li><code>treesitter</code> for full syntax highlighting</li>
+</ul>
+<h2 id="package-installation">:package: Installation</h2>
+<p>Using <a href="https://github.com/wbthomason/packer.nvim">packer.nvim</a>:</p>
+<pre><code class="language-lua">use({
+  &quot;olimorris/onedarkpro.nvim&quot;,
+  config = function()
+    require(&quot;onedarkpro&quot;).setup()
+  end
+})
+</code></pre>
+<p>The theme can then be loaded with:</p>
+<pre><code class="language-lua">vim.cmd(&quot;colorscheme onedarkpro&quot;)
+</code></pre>
+<p>Alternatively, if using Vimscript and <a href="https://github.com/junegunn/vim-plug">vim-plug</a>:</p>
+<pre><code class="language-vim">call plug#begin(&#39;~/.config/nvim/plugged&#39;)
+  Plug &#39;olimorris/onedarkpro.nvim&#39;
+call plug#end()
+
+colorscheme onedarkpro
+</code></pre>
+<h2 id="wrench-configuration">:wrench: Configuration</h2>
+<h3 id="default-configuration">Default configuration</h3>
+<p>The theme&#39;s default configuration as per the <a href="https://github.com/olimorris/onedarkpro.nvim/blob/main/lua/onedarkpro/config.lua">config.lua</a> file is:</p>
+<pre><code class="language-lua">require(&quot;onedarkpro&quot;).setup({
+  dark_theme = &quot;onedark&quot;, -- The default dark theme
+  light_theme = &quot;onelight&quot;, -- The default light theme
+  -- The theme function can be overwritten with a string value for the theme
+  theme = function()
+      if vim.o.background == &quot;dark&quot; then
+          return config.dark_theme
+      else
+          return config.light_theme
+      end
+  end,
+  colors = {}, -- Override default colors by specifying colors for &#39;onelight&#39; or &#39;onedark&#39; themes
+  hlgroups = {}, -- Override default highlight groups
+  filetype_hlgroups = {}, -- Override default highlight groups for specific filetypes
+  plugins = { -- Override which plugins highlight groups are loaded
+      -- NOTE: Plugins have been omitted for brevity - Please see the plugins section of the README
+  },
+  styles = { -- Choose from &quot;bold,italic,underline&quot;
+      strings = &quot;NONE&quot;, -- Style that is applied to strings.
+      comments = &quot;NONE&quot;, -- Style that is applied to comments
+      keywords = &quot;NONE&quot;, -- Style that is applied to keywords
+      functions = &quot;NONE&quot;, -- Style that is applied to functions
+      variables = &quot;NONE&quot;, -- Style that is applied to variables
+      virtual_text = &quot;NONE&quot;, -- Style that is applied to virtual text
+  },
+  options = {
+      bold = false, -- Use the themes opinionated bold styles?
+      italic = false, -- Use the themes opinionated italic styles?
+      underline = false, -- Use the themes opinionated underline styles?
+      undercurl = false, -- Use the themes opinionated undercurl styles?
+      cursorline = false, -- Use cursorline highlighting?
+      transparency = false, -- Use a transparent background?
+      terminal_colors = false, -- Use the theme&#39;s colors for Neovim&#39;s :terminal?
+      window_unfocussed_color = false, -- When the window is out of focus, change the normal background?
+  }
+})
+</code></pre>
+<h3 id="configuring-themes">Configuring themes</h3>
+<p>Currently, there are four themes available:</p>
+<ul>
+<li><code>onedark</code></li>
+<li><code>onelight</code></li>
+<li><code>onedark_vivid</code></li>
+<li><code>onedark_dark</code></li>
+</ul>
+<p>A default theme can be set with:</p>
+<pre><code class="language-lua">theme = &quot;onedark_vivid&quot;,
+</code></pre>
+<p>If no value is specified, the theme will use the values as per the default config. This results in the value of <code>vim.o.background</code> option to set the theme. With a dark background, the theme will use <code>onedark</code> and with a light background, <code>onelight</code>. For greater customisation with the <code>vim.o.background</code> option, default dark and light themes can be set:</p>
+<pre><code class="language-lua">dark_theme = &quot;onedark_vivid&quot;,
+light_theme = &quot;onelight&quot;,
+</code></pre>
+<h3 id="configuring-plugins">Configuring plugins</h3>
+<blockquote>
+<p><strong>Note:</strong> For a full list of plugins supported in the theme, see the plugins <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/lua/onedarkpro/plugins">folder</a></p>
+</blockquote>
+<p>By default, all of the plugins supported by the theme are loaded at runtime. Specific plugins can be disabled as follows:</p>
+<pre><code class="language-lua">plugins = {
+  native_lsp = false,
+  polygot = false,
+  treesitter = false
+}
+</code></pre>
+<p>Alternatively, all of the plugins can be disabled at once:</p>
+<pre><code class="language-lua">plugins = {
+  all = false
+}
+</code></pre>
+<p>Or, all of the plugins can be disabled with only a select few enabled:</p>
+<pre><code class="language-lua">plugins = {
+  all = false
+  native_lsp = true,
+  treesitter = true
+}
+</code></pre>
+<h3 id="configuring-styles">Configuring styles</h3>
+<p>Within the theme, collections of highlight groups have been grouped together into <code>styles</code>. For users who use monospaced fonts with nice italics, this can go someway to adding greater customisation to the theme. These styles may be configured as below:</p>
+<pre><code class="language-lua">styles = {
+  comments = &quot;italic&quot;,
+  functions = &quot;NONE&quot;,
+  keywords = &quot;bold,italic&quot;,
+  strings = &quot;NONE&quot;,
+  variables = &quot;NONE&quot;,
+  virtual_text = &quot;NONE&quot;
+}
+</code></pre>
+<p>Where <strong>italic</strong>, <strong>bold</strong>, <strong>underline</strong> and <strong>NONE</strong> are possible values for styles.</p>
+<h3 id="configuring-colors">Configuring colors</h3>
+<p>The theme has a palette of 13 core colors alongside many additional ones used for menus and git diffs. These colors can be found in the <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/lua/onedarkpro/colors">color files</a>.</p>
+<p>The default colors can be changed by specifying the name of the color and the new hex code:</p>
+<pre><code class="language-lua">colors = {
+  red = &quot;#FF0000&quot;
+}
+</code></pre>
+<h4 id="specifying-new-colors">Specifying new colors</h4>
+<p>New colors may be defined which will then be merged into the theme&#39;s color palette:</p>
+<pre><code class="language-lua">colors = {
+  my_new_red = &quot;#f44336&quot;
+}
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Custom colors can also be referenced when creating custom highlight group overrides in <code>hlgroups</code></p>
+</blockquote>
+<h4 id="specifying-colors-by-theme">Specifying colors by theme</h4>
+<p>It&#39;s possible to override default colors within the theme such as the <code>bg</code> color. This is a common question for those who wish to have a darker background than the default. Of course it would make sense to have different <code>bg</code> colors for the <code>onedark</code> and <code>onelight</code> themes. This can be achieved by specifying the theme name as a table, followed by the color:</p>
+<pre><code class="language-lua">colors = {
+  onedark = {
+    bg = &quot;#FFFF00&quot; -- yellow
+  },
+  onelight = {
+    bg = &quot;#00FF00&quot; -- green
+  }
+}
+</code></pre>
+<h3 id="configuring-highlight-groups">Configuring highlight groups</h3>
+<p>The <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/lua/onedarkpro/theme.lua">theme.lua</a> file and <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/lua/onedarkpro/plugins">plugins</a> use a large array of highlight groups. There are three ways to customize them:</p>
+<ol>
+<li>Using specific hex colors</li>
+<li>Referencing the name of color variables</li>
+<li>Linking to other highlight groups in the theme</li>
+</ol>
+<pre><code class="language-lua">hlgroups = { -- Overriding the Comment highlight group
+  Comment = { fg = &quot;#FF0000&quot;, bg = &quot;#FFFF00&quot;, style = &quot;italic&quot; }, -- 1
+  Comment = { fg = &quot;${my_new_red}&quot; bg = &quot;${yellow}&quot;, style = &quot;bold,italic&quot; }, -- 2
+  Comment = { link = &quot;Substitute&quot; } -- 3
+}
+</code></pre>
+<h3 id="configuring-filetype-highlight-groups">Configuring filetype highlight groups</h3>
+<p>The original One Dark Pro utilises custom highlights based on filetype to achieve its distinctive look. This can also be achieved within the theme:</p>
+<pre><code class="language-lua">filetype_hlgroups = {
+  yaml = { -- Use the filetype as per the `set filetype?` command
+    TSField = { fg = &quot;${red}&quot; }
+  },
+  python = {
+    TSConstructor = { fg = &quot;${bg}&quot;, bg = &quot;${red}&quot; }
+  }
+}
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Currently support for highlighting in Telescope&#39;s previewer is unavailable.</p>
+</blockquote>
+<blockquote>
+<p><strong>Note:</strong> Please see <a href="https://github.com/olimorris/onedarkpro.nvim/issues/24">this issue</a> for how other users are configuring their theme by filetype</p>
+</blockquote>
+<blockquote>
+<p><strong>Note:</strong> The excellent <a href="https://github.com/m-demare/hlargs.nvim">hlargs.nvim</a> plugin allows for greater customisation over arguments definitions and usages</p>
+</blockquote>
+<h4 id="ignoring-filetypes-and-buffer-types">Ignoring filetypes and buffer types</h4>
+<p>Filetype highlight groups work by detecting the filetype of the current buffer and checking the user&#39;s config to determine if any should be applied. As the user moves between buffers, the theme checks for a filetype change and applies any new highlights as neccessary.</p>
+<p>When using common plugins such as <a href="https://github.com/nvim-telescope/telescope.nvim">Telescope</a> or <a href="https://github.com/folke/trouble.nvim">Trouble</a>, additional windows with distinct filetypes are opened. This can cause the theme to reapply the default highlight groups as it detects a buffer filetype change. When closing the windows, the user&#39;s custom filetype highlight groups are then lost. To prevent this from happening, the theme has a table of filetypes and buffer types to ignore:</p>
+<pre><code class="language-lua">filetype_hlgroups_ignore = {
+  filetypes = {
+    &quot;^aerial$&quot;,
+    &quot;^alpha$&quot;,
+    &quot;^fugitive$&quot;,
+    &quot;^fugitiveblame$&quot;,
+    &quot;^help$&quot;,
+    &quot;^NvimTree$&quot;,
+    &quot;^packer$&quot;,
+    &quot;^qf$&quot;,
+    &quot;^startify$&quot;,
+    &quot;^startuptime$&quot;,
+    &quot;^TelescopePrompt$&quot;,
+    &quot;^TelescopeResults$&quot;,
+    &quot;^terminal$&quot;,
+    &quot;^toggleterm$&quot;,
+    &quot;^undotree$&quot;
+  },
+  buftypes = {
+    &quot;^terminal$&quot;
+  }
+</code></pre>
+<p>Additional filetypes and buffer types can be added in the config.</p>
+<h3 id="configuring-options">Configuring options</h3>
+<h4 id="formatting">Formatting</h4>
+<p>Alongside styles, the theme applies some opinionated formatting. These can be found in the <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/lua/onedarkpro/theme.lua">theme.lua</a> file with <code>style</code> options containing <code>theme.*</code> values.</p>
+<p>These can be configured with the following options:</p>
+<pre><code class="language-lua">options = {
+  bold = true, -- Use the themes opinionated bold styles?
+  italic = true, -- Use the themes opinionated italic styles?
+  underline = true, -- Use the themes opinionated underline styles?
+  undercurl = true -- Use the themes opinionated undercurl styles?
+}
+</code></pre>
+<h4 id="transparency">Transparency</h4>
+<p>The theme supports transparent backgrounds:</p>
+<pre><code class="language-lua">options = {
+  transparency = true
+}
+</code></pre>
+<p>By setting the transparency option to true, the <code>Normal</code>, <code>Folded</code>, <code>SignColumn</code>, <code>Statusline</code> and <code>Tabline</code> groups will have a <code>NONE</code> background color. Additional transparency may be achieved by overriding more highlight groups.</p>
+<h4 id="terminal-colors">Terminal Colors</h4>
+<p>The theme supports changing the colors for Neovim&#39;s <code>:terminal</code>:</p>
+<pre><code class="language-lua">options = {
+  terminal_colors = true
+}
+</code></pre>
+<h4 id="window-focus-color">Window Focus Color</h4>
+<p>The theme supports changing the color of the main window in Neovim when focussed is lost. For example, when a <code>telescope</code> or <code>packer</code> pop up appears:</p>
+<pre><code class="language-lua">options = {
+  window_unfocussed_color = true
+}
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> This can be seen in the <a href="#python">Python screenshots</a> above where <code>nvim-tree</code> is opened and out of focus</p>
+</blockquote>
+<h4 id="cursorline">Cursorline</h4>
+<p>Cursorline highlighting is supported in the theme using a <code>cursorline</code> color (which may of course be overriden). This can be enabled with the following:</p>
+<pre><code class="language-lua">colors = {
+  cursorline = &quot;#FF0000&quot; -- This is optional. The default cursorline color is based on the background
+},
+options = {
+  cursorline = true
+}
+</code></pre>
+<h2 id="gift-extras">:gift: Extras</h2>
+<h3 id="terminal-themes">Terminal themes</h3>
+<p>The theme comes with <a href="https://github.com/alacritty/alacritty">Alacritty</a> and <a href="https://github.com/kovidgoyal/kitty">Kitty</a> themes. These can be found in the <a href="https://github.com/olimorris/onedarkpro.nvim/tree/main/extras">extras</a> folder.</p>
+<h3 id="helpers">Helpers</h3>
+<h4 id="theme-color-tables">Theme color tables</h4>
+<p>To enable the theme&#39;s colors to be extracted and used elsewhere in the Neovim config, a helper function, <code>get_colors()</code>, has been included. This returns a table of the theme&#39;s current colors.</p>
+<pre><code class="language-lua">local colors = require(&quot;onedarkpro&quot;).get_colors(vim.g.onedarkpro_style)
+print(colors.purple) -- #9a77cf
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The global variable <code>vim.g.onedarkpro_style</code> automatically detects whether to use the <code>onedark</code> or <code>onelight</code> theme.</p>
+</blockquote>
+<h4 id="toggling-between-onedark-and-onelight">Toggling between Onedark and Onelight</h4>
+<p>To enable the easy switching between themes, the following helper function could be used:</p>
+<pre><code class="language-lua">function ToggleTheme()
+  if vim.o.background == &quot;dark&quot; then
+    vim.o.background = &quot;light&quot;
+  else
+    vim.o.background = &quot;dark&quot;
+  end
+end
+</code></pre>
+<h4 id="configuring-stylescolorshighlight-groups-based-on-the-theme">Configuring styles/colors/highlight groups based on the theme</h4>
+<p>When configuring the theme, it may be useful to apply different colors or styles depending on whether <code>onedark</code> or <code>onelight</code> is active. This can be achieved by applying a conditional in the configuration:</p>
+<pre><code class="language-lua">hlgroups = {
+  TSField = {
+    fg = (vim.o.background == &quot;dark&quot; and &quot;${red}&quot; or &quot;${green}&quot;)
+  }
+}
+</code></pre>
+<h2 id="clap-credits">:clap: Credits</h2>
+<h3 id="contributors">Contributors</h3>
+<p>Thanks to the following contributors for their work on the theme:</p>
+<ul>
+<li><a href="https://github.com/mmirus">mmirus</a> - <a href="https://github.com/olimorris/onedarkpro.nvim/commits?author=mmirus">contributions</a></li>
+</ul>
+<h3 id="inspiration">Inspiration</h3>
+<p>The following themes were used as an inspiration:</p>
+<ul>
+<li><a href="https://github.com/Binaryify/OneDark-Pro">One Dark Pro</a> - The inspiration for this theme</li>
+<li><a href="https://github.com/projekt0n/github-nvim-theme">GitHub nvim theme</a> - For the logo inspiration :wink:</li>
+</ul>
+<h2 id="page_with_curl-license">:page_with_curl: License</h2>
+<p><a href="https://github.com/olimorris/onedark.nvim/blob/main/LICENSE.md">MIT</a></p>
+</div>
+</div>
+
+
+
+	<script type="application/json" data-type="svelte-data" data-url="/plugin/olimorris/onedarkpro.nvim.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"plugin\":{\"id\":\"olimorris\u002Fonedarkpro.nvim\",\"name\":\"onedarkpro.nvim\",\"username\":\"olimorris\",\"repo\":\"onedarkpro.nvim\",\"link\":\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\",\"tags\":[\"tree-sitter-supported-colorscheme\"],\"homepage\":\"\",\"description\":\"ðŸŽ¨ OneDarkPro theme for Neovim. Completely customisable colors, styles and highlights. Supports custom highlights by filetype!\",\"branch\":\"main\",\"openIssues\":4,\"watchers\":271,\"forks\":9,\"stars\":271,\"subscribers\":3,\"network\":9,\"createdAt\":\"2021-04-07T17:22:14Z\",\"updatedAt\":\"2022-07-22T18:40:53Z\"},\"html\":\"\u003Ch1 id=\\\"onedarkpronvim\\\"\u003EOneDarkPro.nvim\u003C\u002Fh1\u003E\\n\u003Cp\u003E\u003Cimg src=\\\"https:\u002F\u002Fimg.shields.io\u002Fgithub\u002Flicense\u002Folimorris\u002Fonedarkpro.nvim\\\" alt=\\\"MIT License\\\"\u003E \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Factions\u002Fworkflows\u002Fci.yml\\\"\u003E\u003Cimg src=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Factions\u002Fworkflows\u002Fci.yml\u002Fbadge.svg?branch=main\\\" alt=\\\"Tests\\\"\u003E\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003Ch2 id=\\\"book-table-of-contents\\\"\u003E:book: Table of Contents\u003C\u002Fh2\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#sparkles-features\\\"\u003EFeatures\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#camera-screenshots\\\"\u003EScreenshots\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#zap-requirements\\\"\u003ERequirements\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#package-installation\\\"\u003EInstallation\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#wrench-configuration\\\"\u003EConfiguration\u003C\u002Fa\u003E\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#setup\\\"\u003ESetup\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#default-configuration\\\"\u003EDefault configuration\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-themes\\\"\u003EConfiguring themes\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-plugins\\\"\u003EConfiguring plugins\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-styles\\\"\u003EConfiguring styles\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-colors\\\"\u003EConfiguring colors\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-highlight-groups\\\"\u003EConfiguring highlight groups\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-filetype-highlight-groups\\\"\u003EConfiguring filetype highlight groups\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#configuring-options\\\"\u003EConfiguring options\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#gift-extras\\\"\u003EExtras\u003C\u002Fa\u003E\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#terminal-themes\\\"\u003ETerminal themes\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#helpers\\\"\u003EHelpers\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#clap-credits\\\"\u003ECredits\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"#page_with_curl-license\\\"\u003ELicense\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2 id=\\\"sparkles-features\\\"\u003E:sparkles: Features\u003C\u002Fh2\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Cstrong\u003EDark\u003C\u002Fstrong\u003E and \u003Cstrong\u003Elight\u003C\u002Fstrong\u003E versions - \u003Cem\u003Eonedark\u003C\u002Fem\u003E and \u003Cem\u003Eonelight\u003C\u002Fem\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003ESupports \u003Cstrong\u003Ecustom highlighting across filetypes\u003C\u002Fstrong\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fnvim-treesitter\u002Fnvim-treesitter\\\"\u003ETreesitter\u003C\u002Fa\u003E support\u003C\u002Fli\u003E\\n\u003Cli\u003EOptions to specify styles for:\u003Cul\u003E\\n\u003Cli\u003EComments\u003C\u002Fli\u003E\\n\u003Cli\u003EFunctions\u003C\u002Fli\u003E\\n\u003Cli\u003EKeywords\u003C\u002Fli\u003E\\n\u003Cli\u003EStrings\u003C\u002Fli\u003E\\n\u003Cli\u003EVariables\u003C\u002Fli\u003E\\n\u003Cli\u003EVirtual text\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli\u003EOverride default styles, colors, highlight groups and filetype highlight groups\u003C\u002Fli\u003E\\n\u003Cli\u003ECreate custom highlight groups\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fneovim\u002Fnvim-lspconfig\\\"\u003ELSP\u003C\u002Fa\u003E diagnostics support\u003C\u002Fli\u003E\\n\u003Cli\u003ESupport for a large array of \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fsheerun\u002Fvim-polyglot\\\"\u003Evim-polygot\u003C\u002Fa\u003E packs (pull requests welcome)\u003C\u002Fli\u003E\\n\u003Cli\u003ESupport for popular plugins:\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fstevearc\u002Faerial.nvim\\\"\u003Eaerial.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fromgrk\u002Fbarbar.nvim\\\"\u003Ebarbar.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fgithub\u002Fcopilot.vim\\\"\u003ECopilot.vim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fglepnir\u002Fdashboard-nvim\\\"\u003EDashboard\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Flewis6991\u002Fgitsigns.nvim\\\"\u003Egitsigns.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fphaazon\u002Fhop.nvim\\\"\u003EHop.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Flukas-reineke\u002Findent-blankline.nvim\u002Ftree\u002Flua\\\"\u003EIndent Blankline\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fglepnir\u002Flspsaga.nvim\\\"\u003Elspsaga.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fchentau\u002Fmarks.nvim\\\"\u003Emarks.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fnvim-neotest\u002Fneotest\\\"\u003ENeotest\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fnvim-neo-tree\u002Fneo-tree.nvim\\\"\u003Eneo-tree\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fhrsh7th\u002Fnvim-cmp\\\"\u003Envim-cmp\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fmfussenegger\u002Fnvim-dap\\\"\u003Envim-dap\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Frcarriga\u002Fnvim-dap-ui\\\"\u003Envim-dap-ui\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fkevinhwang91\u002Fnvim-hlslens\\\"\u003Envim-hlslens\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fkyazdani42\u002Fnvim-tree.lua\\\"\u003Envim-tree\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fp00f\u002Fnvim-ts-rainbow\\\"\u003Envim-ts-rainbow\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fwbthomason\u002Fpacker.nvim\\\"\u003Epacker.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fmhinz\u002Fvim-startify\\\"\u003EStartify\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fnvim-telescope\u002Ftelescope.nvim\\\"\u003Etelescope.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fakinsho\u002Ftoggleterm.nvim\\\"\u003Etoggleterm.nvim\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Ffolke\u002Ftrouble.nvim\\\"\u003ETrouble\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Frcarriga\u002Fvim-ultest\\\"\u003EUltest\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Ffolke\u002Fwhich-key.nvim\\\"\u003EWhich Key\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2 id=\\\"camera-screenshots\\\"\u003E:camera: Screenshots\u003C\u002Fh2\u003E\\n\u003Ch3 id=\\\"onedark\\\"\u003EOnedark\u003C\u002Fh3\u003E\\n\u003Cp\u003E\u003Cstrong\u003Ewith Telescope\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\\n\u003Ch3 id=\\\"onelight\\\"\u003EOnelight\u003C\u002Fh3\u003E\\n\u003Cp\u003E\u003Cstrong\u003Ewith Telescope\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\\n\u003Ch3 id=\\\"onedark-vivid\\\"\u003EOnedark Vivid\u003C\u002Fh3\u003E\\n\u003Ch3 id=\\\"onedark-dark\\\"\u003EOnedark Dark\u003C\u002Fh3\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E All screenshots have Treesitter highlighting enabled\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch3 id=\\\"comparison-to-vs-codes-one-dark-pro\\\"\u003EComparison to VS Code&#39;s One Dark Pro\u003C\u002Fh3\u003E\\n\u003Ch4 id=\\\"python\\\"\u003EPython\u003C\u002Fh4\u003E\\n\u003Ch4 id=\\\"react\\\"\u003EReact\u003C\u002Fh4\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E A greater likeness to Visual Studio Code can be achieved by using the theme&#39;s ability to \u003Ca href=\\\"#configuring-filetype-highlight-groups\\\"\u003Ecustomise highlight groups by filetype\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch3 id=\\\"lualine\\\"\u003ELualine\u003C\u002Fh3\u003E\\n\u003Ch4 id=\\\"dark\\\"\u003EDark\u003C\u002Fh4\u003E\\n\u003Ch4 id=\\\"light\\\"\u003ELight\u003C\u002Fh4\u003E\\n\u003Ch3 id=\\\"color-guide\\\"\u003EColor guide\u003C\u002Fh3\u003E\\n\u003Ch4 id=\\\"dark-1\\\"\u003EDark\u003C\u002Fh4\u003E\\n\u003Ch4 id=\\\"light-1\\\"\u003ELight\u003C\u002Fh4\u003E\\n\u003Ch2 id=\\\"zap-requirements\\\"\u003E:zap: Requirements\u003C\u002Fh2\u003E\\n\u003Cul\u003E\\n\u003Cli\u003ENeovim 0.5 or greater\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ccode\u003Etermguicolors\u003C\u002Fcode\u003E enabled for true color support\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ccode\u003Etreesitter\u003C\u002Fcode\u003E for full syntax highlighting\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2 id=\\\"package-installation\\\"\u003E:package: Installation\u003C\u002Fh2\u003E\\n\u003Cp\u003EUsing \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fwbthomason\u002Fpacker.nvim\\\"\u003Epacker.nvim\u003C\u002Fa\u003E:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Euse({\\n  &quot;olimorris\u002Fonedarkpro.nvim&quot;,\\n  config = function()\\n    require(&quot;onedarkpro&quot;).setup()\\n  end\\n})\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EThe theme can then be loaded with:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Evim.cmd(&quot;colorscheme onedarkpro&quot;)\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EAlternatively, if using Vimscript and \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fjunegunn\u002Fvim-plug\\\"\u003Evim-plug\u003C\u002Fa\u003E:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-vim\\\"\u003Ecall plug#begin(&#39;~\u002F.config\u002Fnvim\u002Fplugged&#39;)\\n  Plug &#39;olimorris\u002Fonedarkpro.nvim&#39;\\ncall plug#end()\\n\\ncolorscheme onedarkpro\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch2 id=\\\"wrench-configuration\\\"\u003E:wrench: Configuration\u003C\u002Fh2\u003E\\n\u003Ch3 id=\\\"default-configuration\\\"\u003EDefault configuration\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe theme&#39;s default configuration as per the \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Fblob\u002Fmain\u002Flua\u002Fonedarkpro\u002Fconfig.lua\\\"\u003Econfig.lua\u003C\u002Fa\u003E file is:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Erequire(&quot;onedarkpro&quot;).setup({\\n  dark_theme = &quot;onedark&quot;, -- The default dark theme\\n  light_theme = &quot;onelight&quot;, -- The default light theme\\n  -- The theme function can be overwritten with a string value for the theme\\n  theme = function()\\n      if vim.o.background == &quot;dark&quot; then\\n          return config.dark_theme\\n      else\\n          return config.light_theme\\n      end\\n  end,\\n  colors = {}, -- Override default colors by specifying colors for &#39;onelight&#39; or &#39;onedark&#39; themes\\n  hlgroups = {}, -- Override default highlight groups\\n  filetype_hlgroups = {}, -- Override default highlight groups for specific filetypes\\n  plugins = { -- Override which plugins highlight groups are loaded\\n      -- NOTE: Plugins have been omitted for brevity - Please see the plugins section of the README\\n  },\\n  styles = { -- Choose from &quot;bold,italic,underline&quot;\\n      strings = &quot;NONE&quot;, -- Style that is applied to strings.\\n      comments = &quot;NONE&quot;, -- Style that is applied to comments\\n      keywords = &quot;NONE&quot;, -- Style that is applied to keywords\\n      functions = &quot;NONE&quot;, -- Style that is applied to functions\\n      variables = &quot;NONE&quot;, -- Style that is applied to variables\\n      virtual_text = &quot;NONE&quot;, -- Style that is applied to virtual text\\n  },\\n  options = {\\n      bold = false, -- Use the themes opinionated bold styles?\\n      italic = false, -- Use the themes opinionated italic styles?\\n      underline = false, -- Use the themes opinionated underline styles?\\n      undercurl = false, -- Use the themes opinionated undercurl styles?\\n      cursorline = false, -- Use cursorline highlighting?\\n      transparency = false, -- Use a transparent background?\\n      terminal_colors = false, -- Use the theme&#39;s colors for Neovim&#39;s :terminal?\\n      window_unfocussed_color = false, -- When the window is out of focus, change the normal background?\\n  }\\n})\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch3 id=\\\"configuring-themes\\\"\u003EConfiguring themes\u003C\u002Fh3\u003E\\n\u003Cp\u003ECurrently, there are four themes available:\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ccode\u003Eonedark\u003C\u002Fcode\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ccode\u003Eonelight\u003C\u002Fcode\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ccode\u003Eonedark_vivid\u003C\u002Fcode\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ccode\u003Eonedark_dark\u003C\u002Fcode\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Cp\u003EA default theme can be set with:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Etheme = &quot;onedark_vivid&quot;,\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EIf no value is specified, the theme will use the values as per the default config. This results in the value of \u003Ccode\u003Evim.o.background\u003C\u002Fcode\u003E option to set the theme. With a dark background, the theme will use \u003Ccode\u003Eonedark\u003C\u002Fcode\u003E and with a light background, \u003Ccode\u003Eonelight\u003C\u002Fcode\u003E. For greater customisation with the \u003Ccode\u003Evim.o.background\u003C\u002Fcode\u003E option, default dark and light themes can be set:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Edark_theme = &quot;onedark_vivid&quot;,\\nlight_theme = &quot;onelight&quot;,\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch3 id=\\\"configuring-plugins\\\"\u003EConfiguring plugins\u003C\u002Fh3\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E For a full list of plugins supported in the theme, see the plugins \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Flua\u002Fonedarkpro\u002Fplugins\\\"\u003Efolder\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Cp\u003EBy default, all of the plugins supported by the theme are loaded at runtime. Specific plugins can be disabled as follows:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eplugins = {\\n  native_lsp = false,\\n  polygot = false,\\n  treesitter = false\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EAlternatively, all of the plugins can be disabled at once:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eplugins = {\\n  all = false\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EOr, all of the plugins can be disabled with only a select few enabled:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eplugins = {\\n  all = false\\n  native_lsp = true,\\n  treesitter = true\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch3 id=\\\"configuring-styles\\\"\u003EConfiguring styles\u003C\u002Fh3\u003E\\n\u003Cp\u003EWithin the theme, collections of highlight groups have been grouped together into \u003Ccode\u003Estyles\u003C\u002Fcode\u003E. For users who use monospaced fonts with nice italics, this can go someway to adding greater customisation to the theme. These styles may be configured as below:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Estyles = {\\n  comments = &quot;italic&quot;,\\n  functions = &quot;NONE&quot;,\\n  keywords = &quot;bold,italic&quot;,\\n  strings = &quot;NONE&quot;,\\n  variables = &quot;NONE&quot;,\\n  virtual_text = &quot;NONE&quot;\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EWhere \u003Cstrong\u003Eitalic\u003C\u002Fstrong\u003E, \u003Cstrong\u003Ebold\u003C\u002Fstrong\u003E, \u003Cstrong\u003Eunderline\u003C\u002Fstrong\u003E and \u003Cstrong\u003ENONE\u003C\u002Fstrong\u003E are possible values for styles.\u003C\u002Fp\u003E\\n\u003Ch3 id=\\\"configuring-colors\\\"\u003EConfiguring colors\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe theme has a palette of 13 core colors alongside many additional ones used for menus and git diffs. These colors can be found in the \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Flua\u002Fonedarkpro\u002Fcolors\\\"\u003Ecolor files\u003C\u002Fa\u003E.\u003C\u002Fp\u003E\\n\u003Cp\u003EThe default colors can be changed by specifying the name of the color and the new hex code:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ecolors = {\\n  red = &quot;#FF0000&quot;\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch4 id=\\\"specifying-new-colors\\\"\u003ESpecifying new colors\u003C\u002Fh4\u003E\\n\u003Cp\u003ENew colors may be defined which will then be merged into the theme&#39;s color palette:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ecolors = {\\n  my_new_red = &quot;#f44336&quot;\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E Custom colors can also be referenced when creating custom highlight group overrides in \u003Ccode\u003Ehlgroups\u003C\u002Fcode\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch4 id=\\\"specifying-colors-by-theme\\\"\u003ESpecifying colors by theme\u003C\u002Fh4\u003E\\n\u003Cp\u003EIt&#39;s possible to override default colors within the theme such as the \u003Ccode\u003Ebg\u003C\u002Fcode\u003E color. This is a common question for those who wish to have a darker background than the default. Of course it would make sense to have different \u003Ccode\u003Ebg\u003C\u002Fcode\u003E colors for the \u003Ccode\u003Eonedark\u003C\u002Fcode\u003E and \u003Ccode\u003Eonelight\u003C\u002Fcode\u003E themes. This can be achieved by specifying the theme name as a table, followed by the color:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ecolors = {\\n  onedark = {\\n    bg = &quot;#FFFF00&quot; -- yellow\\n  },\\n  onelight = {\\n    bg = &quot;#00FF00&quot; -- green\\n  }\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch3 id=\\\"configuring-highlight-groups\\\"\u003EConfiguring highlight groups\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Flua\u002Fonedarkpro\u002Ftheme.lua\\\"\u003Etheme.lua\u003C\u002Fa\u003E file and \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Flua\u002Fonedarkpro\u002Fplugins\\\"\u003Eplugins\u003C\u002Fa\u003E use a large array of highlight groups. There are three ways to customize them:\u003C\u002Fp\u003E\\n\u003Col\u003E\\n\u003Cli\u003EUsing specific hex colors\u003C\u002Fli\u003E\\n\u003Cli\u003EReferencing the name of color variables\u003C\u002Fli\u003E\\n\u003Cli\u003ELinking to other highlight groups in the theme\u003C\u002Fli\u003E\\n\u003C\u002Fol\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ehlgroups = { -- Overriding the Comment highlight group\\n  Comment = { fg = &quot;#FF0000&quot;, bg = &quot;#FFFF00&quot;, style = &quot;italic&quot; }, -- 1\\n  Comment = { fg = &quot;${my_new_red}&quot; bg = &quot;${yellow}&quot;, style = &quot;bold,italic&quot; }, -- 2\\n  Comment = { link = &quot;Substitute&quot; } -- 3\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch3 id=\\\"configuring-filetype-highlight-groups\\\"\u003EConfiguring filetype highlight groups\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe original One Dark Pro utilises custom highlights based on filetype to achieve its distinctive look. This can also be achieved within the theme:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Efiletype_hlgroups = {\\n  yaml = { -- Use the filetype as per the `set filetype?` command\\n    TSField = { fg = &quot;${red}&quot; }\\n  },\\n  python = {\\n    TSConstructor = { fg = &quot;${bg}&quot;, bg = &quot;${red}&quot; }\\n  }\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E Currently support for highlighting in Telescope&#39;s previewer is unavailable.\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E Please see \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Fissues\u002F24\\\"\u003Ethis issue\u003C\u002Fa\u003E for how other users are configuring their theme by filetype\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E The excellent \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fm-demare\u002Fhlargs.nvim\\\"\u003Ehlargs.nvim\u003C\u002Fa\u003E plugin allows for greater customisation over arguments definitions and usages\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch4 id=\\\"ignoring-filetypes-and-buffer-types\\\"\u003EIgnoring filetypes and buffer types\u003C\u002Fh4\u003E\\n\u003Cp\u003EFiletype highlight groups work by detecting the filetype of the current buffer and checking the user&#39;s config to determine if any should be applied. As the user moves between buffers, the theme checks for a filetype change and applies any new highlights as neccessary.\u003C\u002Fp\u003E\\n\u003Cp\u003EWhen using common plugins such as \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fnvim-telescope\u002Ftelescope.nvim\\\"\u003ETelescope\u003C\u002Fa\u003E or \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Ffolke\u002Ftrouble.nvim\\\"\u003ETrouble\u003C\u002Fa\u003E, additional windows with distinct filetypes are opened. This can cause the theme to reapply the default highlight groups as it detects a buffer filetype change. When closing the windows, the user&#39;s custom filetype highlight groups are then lost. To prevent this from happening, the theme has a table of filetypes and buffer types to ignore:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Efiletype_hlgroups_ignore = {\\n  filetypes = {\\n    &quot;^aerial$&quot;,\\n    &quot;^alpha$&quot;,\\n    &quot;^fugitive$&quot;,\\n    &quot;^fugitiveblame$&quot;,\\n    &quot;^help$&quot;,\\n    &quot;^NvimTree$&quot;,\\n    &quot;^packer$&quot;,\\n    &quot;^qf$&quot;,\\n    &quot;^startify$&quot;,\\n    &quot;^startuptime$&quot;,\\n    &quot;^TelescopePrompt$&quot;,\\n    &quot;^TelescopeResults$&quot;,\\n    &quot;^terminal$&quot;,\\n    &quot;^toggleterm$&quot;,\\n    &quot;^undotree$&quot;\\n  },\\n  buftypes = {\\n    &quot;^terminal$&quot;\\n  }\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EAdditional filetypes and buffer types can be added in the config.\u003C\u002Fp\u003E\\n\u003Ch3 id=\\\"configuring-options\\\"\u003EConfiguring options\u003C\u002Fh3\u003E\\n\u003Ch4 id=\\\"formatting\\\"\u003EFormatting\u003C\u002Fh4\u003E\\n\u003Cp\u003EAlongside styles, the theme applies some opinionated formatting. These can be found in the \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Flua\u002Fonedarkpro\u002Ftheme.lua\\\"\u003Etheme.lua\u003C\u002Fa\u003E file with \u003Ccode\u003Estyle\u003C\u002Fcode\u003E options containing \u003Ccode\u003Etheme.*\u003C\u002Fcode\u003E values.\u003C\u002Fp\u003E\\n\u003Cp\u003EThese can be configured with the following options:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eoptions = {\\n  bold = true, -- Use the themes opinionated bold styles?\\n  italic = true, -- Use the themes opinionated italic styles?\\n  underline = true, -- Use the themes opinionated underline styles?\\n  undercurl = true -- Use the themes opinionated undercurl styles?\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch4 id=\\\"transparency\\\"\u003ETransparency\u003C\u002Fh4\u003E\\n\u003Cp\u003EThe theme supports transparent backgrounds:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eoptions = {\\n  transparency = true\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cp\u003EBy setting the transparency option to true, the \u003Ccode\u003ENormal\u003C\u002Fcode\u003E, \u003Ccode\u003EFolded\u003C\u002Fcode\u003E, \u003Ccode\u003ESignColumn\u003C\u002Fcode\u003E, \u003Ccode\u003EStatusline\u003C\u002Fcode\u003E and \u003Ccode\u003ETabline\u003C\u002Fcode\u003E groups will have a \u003Ccode\u003ENONE\u003C\u002Fcode\u003E background color. Additional transparency may be achieved by overriding more highlight groups.\u003C\u002Fp\u003E\\n\u003Ch4 id=\\\"terminal-colors\\\"\u003ETerminal Colors\u003C\u002Fh4\u003E\\n\u003Cp\u003EThe theme supports changing the colors for Neovim&#39;s \u003Ccode\u003E:terminal\u003C\u002Fcode\u003E:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eoptions = {\\n  terminal_colors = true\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch4 id=\\\"window-focus-color\\\"\u003EWindow Focus Color\u003C\u002Fh4\u003E\\n\u003Cp\u003EThe theme supports changing the color of the main window in Neovim when focussed is lost. For example, when a \u003Ccode\u003Etelescope\u003C\u002Fcode\u003E or \u003Ccode\u003Epacker\u003C\u002Fcode\u003E pop up appears:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Eoptions = {\\n  window_unfocussed_color = true\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E This can be seen in the \u003Ca href=\\\"#python\\\"\u003EPython screenshots\u003C\u002Fa\u003E above where \u003Ccode\u003Envim-tree\u003C\u002Fcode\u003E is opened and out of focus\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch4 id=\\\"cursorline\\\"\u003ECursorline\u003C\u002Fh4\u003E\\n\u003Cp\u003ECursorline highlighting is supported in the theme using a \u003Ccode\u003Ecursorline\u003C\u002Fcode\u003E color (which may of course be overriden). This can be enabled with the following:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ecolors = {\\n  cursorline = &quot;#FF0000&quot; -- This is optional. The default cursorline color is based on the background\\n},\\noptions = {\\n  cursorline = true\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch2 id=\\\"gift-extras\\\"\u003E:gift: Extras\u003C\u002Fh2\u003E\\n\u003Ch3 id=\\\"terminal-themes\\\"\u003ETerminal themes\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe theme comes with \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Falacritty\u002Falacritty\\\"\u003EAlacritty\u003C\u002Fa\u003E and \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fkovidgoyal\u002Fkitty\\\"\u003EKitty\u003C\u002Fa\u003E themes. These can be found in the \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Ftree\u002Fmain\u002Fextras\\\"\u003Eextras\u003C\u002Fa\u003E folder.\u003C\u002Fp\u003E\\n\u003Ch3 id=\\\"helpers\\\"\u003EHelpers\u003C\u002Fh3\u003E\\n\u003Ch4 id=\\\"theme-color-tables\\\"\u003ETheme color tables\u003C\u002Fh4\u003E\\n\u003Cp\u003ETo enable the theme&#39;s colors to be extracted and used elsewhere in the Neovim config, a helper function, \u003Ccode\u003Eget_colors()\u003C\u002Fcode\u003E, has been included. This returns a table of the theme&#39;s current colors.\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Elocal colors = require(&quot;onedarkpro&quot;).get_colors(vim.g.onedarkpro_style)\\nprint(colors.purple) -- #9a77cf\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Cblockquote\u003E\\n\u003Cp\u003E\u003Cstrong\u003ENote:\u003C\u002Fstrong\u003E The global variable \u003Ccode\u003Evim.g.onedarkpro_style\u003C\u002Fcode\u003E automatically detects whether to use the \u003Ccode\u003Eonedark\u003C\u002Fcode\u003E or \u003Ccode\u003Eonelight\u003C\u002Fcode\u003E theme.\u003C\u002Fp\u003E\\n\u003C\u002Fblockquote\u003E\\n\u003Ch4 id=\\\"toggling-between-onedark-and-onelight\\\"\u003EToggling between Onedark and Onelight\u003C\u002Fh4\u003E\\n\u003Cp\u003ETo enable the easy switching between themes, the following helper function could be used:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Efunction ToggleTheme()\\n  if vim.o.background == &quot;dark&quot; then\\n    vim.o.background = &quot;light&quot;\\n  else\\n    vim.o.background = &quot;dark&quot;\\n  end\\nend\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch4 id=\\\"configuring-stylescolorshighlight-groups-based-on-the-theme\\\"\u003EConfiguring styles\u002Fcolors\u002Fhighlight groups based on the theme\u003C\u002Fh4\u003E\\n\u003Cp\u003EWhen configuring the theme, it may be useful to apply different colors or styles depending on whether \u003Ccode\u003Eonedark\u003C\u002Fcode\u003E or \u003Ccode\u003Eonelight\u003C\u002Fcode\u003E is active. This can be achieved by applying a conditional in the configuration:\u003C\u002Fp\u003E\\n\u003Cpre\u003E\u003Ccode class=\\\"language-lua\\\"\u003Ehlgroups = {\\n  TSField = {\\n    fg = (vim.o.background == &quot;dark&quot; and &quot;${red}&quot; or &quot;${green}&quot;)\\n  }\\n}\\n\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\\n\u003Ch2 id=\\\"clap-credits\\\"\u003E:clap: Credits\u003C\u002Fh2\u003E\\n\u003Ch3 id=\\\"contributors\\\"\u003EContributors\u003C\u002Fh3\u003E\\n\u003Cp\u003EThanks to the following contributors for their work on the theme:\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fmmirus\\\"\u003Emmirus\u003C\u002Fa\u003E - \u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedarkpro.nvim\u002Fcommits?author=mmirus\\\"\u003Econtributions\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch3 id=\\\"inspiration\\\"\u003EInspiration\u003C\u002Fh3\u003E\\n\u003Cp\u003EThe following themes were used as an inspiration:\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002FBinaryify\u002FOneDark-Pro\\\"\u003EOne Dark Pro\u003C\u002Fa\u003E - The inspiration for this theme\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Fprojekt0n\u002Fgithub-nvim-theme\\\"\u003EGitHub nvim theme\u003C\u002Fa\u003E - For the logo inspiration :wink:\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2 id=\\\"page_with_curl-license\\\"\u003E:page_with_curl: License\u003C\u002Fh2\u003E\\n\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002Folimorris\u002Fonedark.nvim\u002Fblob\u002Fmain\u002FLICENSE.md\\\"\u003EMIT\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\",\"tags\":[{\"id\":\"tree-sitter-supported-colorscheme\",\"count\":71}]}"}</script>
+</div>
+  </body>
+</html>
+&ö2xÊÊ      bî:¢bî:£D’Íãbî:£   o    O^partitionKey=%28http%2Cneovimcraft.com%29,:http://neovimcraft.com/plugin/olimorris/onedarkpro.nvim/index.html strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sat, 06 Aug 2022 09:55:46 GMT
+Content-Type: text/html
+Content-Length: 62179
+X-GUploader-UploadID: ADPycduP6_DiOAZ0tBjVaFtxMsMhxzfJTfVx8zUfev5y9WjUuPnK8y_kspDSGQ18txKd96UphKhAUuMe6cz95wqdxkhY44dv4Jqc
+Cache-Control: private, max-age=0, no-transform
+Expires: Sat, 06 Aug 2022 09:55:46 GMT
+Last-Modified: Sat, 06 Aug 2022 06:20:12 GMT
+ETag: "52f8a366c601d0832691eecb6746e6ff"
+x-goog-generation: 1659766812391357
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 62179
+x-goog-meta-goog-reserved-file-mtime: 1659766771
+x-goog-hash: crc32c=naEAfA==, md5=UvijZsYB0IMmke7LZ0bm/w==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZJzzKiza6NqDzaCV44ZVmZd6v%2FYVajMI934UHO06LH%2BM%2F2zQViSztTa2qGPpg4N8VYMjcFT8%2F44InOa56Vs0Ctz%2BbwCpnWRP0QdpvErAK7XMiR3k7oGwKGLrw86%2FoNiS3Uo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7366e6166bf785f6-BOM
+alt-svc: h2=":443"; ma=60
+ original-response-headers Date: Sat, 06 Aug 2022 09:55:46 GMT
+Content-Type: text/html
+Content-Length: 62179
+Connection: keep-alive
+X-GUploader-UploadID: ADPycduP6_DiOAZ0tBjVaFtxMsMhxzfJTfVx8zUfev5y9WjUuPnK8y_kspDSGQ18txKd96UphKhAUuMe6cz95wqdxkhY44dv4Jqc
+Cache-Control: private, max-age=0, no-transform
+Expires: Sat, 06 Aug 2022 09:55:46 GMT
+Last-Modified: Sat, 06 Aug 2022 06:20:12 GMT
+ETag: "52f8a366c601d0832691eecb6746e6ff"
+x-goog-generation: 1659766812391357
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 62179
+x-goog-meta-goog-reserved-file-mtime: 1659766771
+x-goog-hash: crc32c=naEAfA==
+x-goog-hash: md5=UvijZsYB0IMmke7LZ0bm/w==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZJzzKiza6NqDzaCV44ZVmZd6v%2FYVajMI934UHO06LH%2BM%2F2zQViSztTa2qGPpg4N8VYMjcFT8%2F44InOa56Vs0Ctz%2BbwCpnWRP0QdpvErAK7XMiR3k7oGwKGLrw86%2FoNiS3Uo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7366e6166bf785f6-BOM
+alt-svc: h2=":443"; ma=60
+ ctid 1 uncompressed-len 0 net-response-time-onstart 831 net-response-time-onstop 868   òã

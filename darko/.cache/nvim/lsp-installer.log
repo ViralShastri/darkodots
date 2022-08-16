@@ -1,0 +1,9 @@
+[INFO  Sat 06 Aug 2022 03:33:54 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="sumneko_lua", success=true
+[INFO  Sat 06 Aug 2022 03:34:39 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="cssmodules_ls", success=true
+[INFO  Sat 06 Aug 2022 03:34:39 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="cssls", success=true
+[INFO  Sat 06 Aug 2022 03:34:50 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="html", success=true
+[INFO  Sat 06 Aug 2022 03:34:54 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="jsonls", success=true
+[INFO  Sat 06 Aug 2022 03:35:18 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="tsserver", success=true
+[INFO  Sat 06 Aug 2022 03:35:27 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="pyright", success=true
+[INFO  Sat 06 Aug 2022 03:35:36 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="yamlls", success=true
+[INFO  Sat 06 Aug 2022 03:35:47 PM IST] ...rt/nvim-lsp-installer/lua/nvim-lsp-installer/ui/init.lua:754: Installation completed server_name="bashls", success=true
